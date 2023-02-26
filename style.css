@@ -1,0 +1,44 @@
+.color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.color ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.color ul li{
+    height: 166px;
+    width: 33%;
+    list-style: none;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+    }
+.white{
+    background-color: rgb(215, 209, 209);
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.cyan{
+    background-color: cyan;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background: pink;
+}
+.black{
+    background-color: black;
+}
