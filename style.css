@@ -42,3 +42,27 @@
 .black{
     background-color: black;
 }
+/* Second part */
+
+.image-hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.image-hover ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.image-hover ul li{
+    height: 166px;
+    width: 33%;
+    list-style: none;
+    cursor: pointer;
+}
+.image-hover ul li img{
+    box-sizing: border-box;
+    height:100%;
+    width: 100%;
+}
