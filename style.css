@@ -1,3 +1,4 @@
+/******** First Section ***/
 .color{
     display: flex;
     flex-direction: column;
@@ -65,4 +66,57 @@
     box-sizing: border-box;
     height:100%;
     width: 100%;
+}
+/******** Third section ****/
+
+.image-hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.image-hover ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.hover-image ul li{
+    height: 166px;
+    width: 33%;
+    list-style: none;
+    cursor: pointer;
+}
+.hover-image ul li img{
+    box-sizing: border-box;
+    height:100%;
+    width: 100%;
+}
+ul li{
+    position: relative;
+}
+.getTheImage li div.preview{
+    position: absolute;
+    top: 20%;
+    left:110px; 
+    z-index: 100;
+}
+.getTheImage li div.preview img{
+   width: 30em;
+    max-height: 50vh;
+    display: block;
+    border:1px solid #fcf4dc
+}
+
+/********Fourth section ****/
+.getTheImageByClick li div.preview{
+    position: absolute;
+    top: 20%;
+    left:110px; 
+    z-index: 100;
+}
+.getTheImageByClick li div.preview img{
+   width: 30em;
+    max-height: 50vh;
+    display: block;
+    border:1px solid #fcf4dc
 }
