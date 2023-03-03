@@ -120,3 +120,43 @@ ul li{
     display: block;
     border:1px solid #fcf4dc
 }
+/******** fifth section******/
+.music_player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music_lists li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 400px;
+    border-bottom: 2px red solid;
+    padding-left: 13px;
+    cursor: pointer;
+}
+.music_lists li:hover{
+    background-color: #FA7E61;
+    color:#EBF38B ;
+    transition: all ease-in 0.2s;
+    border-bottom: 2px rgb(6, 112, 6) solid;
+}
+.music_lists li:last-child{
+    border-bottom: none;
+}
+.mp3_logo img{
+    width: 50px;
+    height: 40px;
+}
+.songs{
+    padding: 15px 30px;
+    background-color: #EBF38B;
+    border-radius: 6px;
+}
+.songs .music{
+    width: 200px;
+    margin-left: 13px;
+    font-size: 1.3em;
+}
+

@@ -70,3 +70,14 @@ document.querySelector('.getTheImageByClick').addEventListener('contextmenu', (e
 
     }
 })
+
+/***********Audio section */
+Musicbox =document.querySelector('ul.music_lists ');
+Musicbox.addEventListener('click',(e)=> {
+    var audioPlayer = document.createElement('audio');
+    var audioLink = e.target.getAttribute('data-src');
+    audioPlayer.src = audioLink;
+    document.body.appendChild(audioPlayer);
+    audioPlayer.play();
+
+})
